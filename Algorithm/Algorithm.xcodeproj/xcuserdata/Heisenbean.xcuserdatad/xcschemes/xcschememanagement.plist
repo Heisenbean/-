@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>水通排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3549F3B31DCB1D7A00A7F093</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>35AC47541DBE4E2B00E5B8FA</key>
 		<dict>
 			<key>primary</key>

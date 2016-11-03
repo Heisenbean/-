@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3549F3B71DCB1D7A00A7F093 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3549F3B61DCB1D7A00A7F093 /* main.c */; };
 		35AC47591DBE4E2B00E5B8FA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35AC47581DBE4E2B00E5B8FA /* main.c */; };
 		35AC47661DBE4E4500E5B8FA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 35AC47651DBE4E4500E5B8FA /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		3549F3B21DCB1D7A00A7F093 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		35AC47531DBE4E2B00E5B8FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3549F3B41DCB1D7A00A7F093 /* 冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549F3B61DCB1D7A00A7F093 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		35AC47551DBE4E2B00E5B8FA /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AC47581DBE4E2B00E5B8FA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		35AC47631DBE4E4500E5B8FA /* 水通排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "水通排序"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3549F3B11DCB1D7A00A7F093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35AC47521DBE4E2B00E5B8FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3549F3B51DCB1D7A00A7F093 /* 冒泡排序 */ = {
+			isa = PBXGroup;
+			children = (
+				3549F3B61DCB1D7A00A7F093 /* main.c */,
+			);
+			path = "冒泡排序";
+			sourceTree = "<group>";
+		};
 		35AC474C1DBE4E2B00E5B8FA = {
 			isa = PBXGroup;
 			children = (
 				35AC47571DBE4E2B00E5B8FA /* Algorithm */,
 				35AC47641DBE4E4500E5B8FA /* 水通排序 */,
+				3549F3B51DCB1D7A00A7F093 /* 冒泡排序 */,
 				35AC47561DBE4E2B00E5B8FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				35AC47551DBE4E2B00E5B8FA /* Algorithm */,
 				35AC47631DBE4E4500E5B8FA /* 水通排序 */,
+				3549F3B41DCB1D7A00A7F093 /* 冒泡排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3549F3B31DCB1D7A00A7F093 /* 冒泡排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3549F3B81DCB1D7A00A7F093 /* Build configuration list for PBXNativeTarget "冒泡排序" */;
+			buildPhases = (
+				3549F3B01DCB1D7A00A7F093 /* Sources */,
+				3549F3B11DCB1D7A00A7F093 /* Frameworks */,
+				3549F3B21DCB1D7A00A7F093 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "冒泡排序";
+			productName = "冒泡排序";
+			productReference = 3549F3B41DCB1D7A00A7F093 /* 冒泡排序 */;
+			productType = "com.apple.product-type.tool";
+		};
 		35AC47541DBE4E2B00E5B8FA /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35AC475C1DBE4E2B00E5B8FA /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -137,6 +183,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Heisenbean;
 				TargetAttributes = {
+					3549F3B31DCB1D7A00A7F093 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					35AC47541DBE4E2B00E5B8FA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = YLHVZ2B9J7;
@@ -163,11 +213,20 @@
 			targets = (
 				35AC47541DBE4E2B00E5B8FA /* Algorithm */,
 				35AC47621DBE4E4500E5B8FA /* 水通排序 */,
+				3549F3B31DCB1D7A00A7F093 /* 冒泡排序 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3549F3B01DCB1D7A00A7F093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3549F3B71DCB1D7A00A7F093 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35AC47511DBE4E2B00E5B8FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,6 +246,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3549F3B91DCB1D7A00A7F093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3549F3BA1DCB1D7A00A7F093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		35AC475A1DBE4E2B00E5B8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -309,6 +382,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3549F3B81DCB1D7A00A7F093 /* Build configuration list for PBXNativeTarget "冒泡排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3549F3B91DCB1D7A00A7F093 /* Debug */,
+				3549F3BA1DCB1D7A00A7F093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		35AC47501DBE4E2B00E5B8FA /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -325,6 +406,7 @@
 				35AC475E1DBE4E2B00E5B8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35AC47671DBE4E4500E5B8FA /* Build configuration list for PBXNativeTarget "水通排序" */ = {
 			isa = XCConfigurationList;
@@ -333,6 +415,7 @@
 				35AC47691DBE4E4500E5B8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
