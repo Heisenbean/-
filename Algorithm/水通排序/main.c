@@ -10,6 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     
+    /*
+        需求:输入5个整数,然后从大到小排序(只能输入10以下的整数)
+     */
     int a[11],i,j,t;
     
     for(i=0;i<=10;i++)
@@ -24,10 +27,34 @@ int main(int argc, const char * argv[]) {
     for(i=10;i>=0;i--)  //依次判断a[0]~a[10]
         for(j=1;j<=a[i];j++)  //出现了几次就打印几次
             printf("%d ",i);
-    
     getchar();getchar();
     //这里的getchar();用来暂停程序，以便查看程序输出的内容
-    //也可以用system("pause");等来代替
+    
+    
+    
+    //
+    /*
+    int mark[1001],i,j,k;
+    
+    for (i = 0;i <= 1000;i++){  // 把所有的数(桶)都置0
+        mark[i] = 0;
+    }
+    
+    for (i = 1; i <= 5; i++) {  // 输入想要排序的5个数
+        scanf("%d",&k);
+        mark[k]++;  // 有哪个数,哪个水桶里就+1
+    }
+    
+    for (i = 1000; i >= 0; i--) {
+        for (j = 1; j <= mark[i]; j++) {
+            printf("%d\n",i);
+        }
+    }
+    
+    getchar();getchar();
+    
+    */
+    
     return 0;
 
 }
